@@ -15,3 +15,6 @@ judul.pack(pady=15)
 
 frame = tk.Frame(root)
 frame.pack()
+
+entries = []
+for i in range(len(mapel)):
