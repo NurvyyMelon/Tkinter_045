@@ -7,3 +7,4 @@ def prediksi():
     hasil.config(text="Teknologi Informasi")
     
 root = tk.Tk()
+root .title("Prediksi Prodi")
