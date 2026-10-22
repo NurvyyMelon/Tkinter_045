@@ -9,3 +9,5 @@ def prediksi():
 root = tk.Tk()
 root.title("Prediksi Prodi")
 root.geometry("400x560")
+
+judul = tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan", font=("Arial", 14, "bold"))
