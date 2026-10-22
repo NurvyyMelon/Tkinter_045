@@ -20,7 +20,12 @@ entries = []
 for i in range(len(mapel)):
      e = tk.Entry(frame, width=12)
      e.grid(row=i, column=1, pady=3)
-      entries.append(e)
+     entries.append(e)
       
 tombol = tk.Button(root, text="Hasil Prediksi", command=prediksi)
 tombol.pack(pady=20)
+
+hasil = tk.Label(root, text="-", font=("Arial", 13, "bold"), fg="#00C3FF")
+hasil.pack()
+
+root.mainloop()
