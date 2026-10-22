@@ -23,3 +23,4 @@ for i in range(len(mapel)):
       entries.append(e)
       
 tombol = tk.Button(root, text="Hasil Prediksi", command=prediksi)
+tombol.pack(pady=20)
