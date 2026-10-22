@@ -18,3 +18,4 @@ frame.pack()
 
 entries = []
 for i in range(len(mapel)):
+     e = tk.Entry(frame, width=12)
