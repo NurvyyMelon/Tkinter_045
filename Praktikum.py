@@ -29,3 +29,13 @@ L4 = tk.Label(top, text="Nilai Mapel 4: ")
 L4.grid(row=4, column=0, sticky="w", padx=20, pady=2)
 E4 = tk.Entry(top, bd=3)
 E4.grid(row=4, column=1, padx=20, pady=2)
+
+L5 = tk.Label(top, text="Nilai Mapel 5: ")
+L5.grid(row=5, column=0, sticky="w", padx=20, pady=2)
+E5 = tk.Entry(top, bd=3)
+E5.grid(row=5, column=1, padx=20, pady=2)
+
+L6 = tk.Label(top, text="Nilai Mapel 6: ")
+L6.grid(row=6, column=0, sticky="w", padx=20, pady=2)
+E6 = tk.Entry(top, bd=3)
+E6.grid(row=6, column=1, padx=20, pady=2)
