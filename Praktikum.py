@@ -21,3 +21,5 @@ for i in range(len(mapel)):
      e = tk.Entry(frame, width=12)
      e.grid(row=i, column=1, pady=3)
       entries.append(e)
+      
+tombol = tk.Button(root, text="Hasil Prediksi", command=prediksi)
