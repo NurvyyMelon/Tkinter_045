@@ -12,3 +12,5 @@ root.geometry("400x560")
 
 judul = tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan", font=("Arial", 14, "bold"))
 judul.pack(pady=15)
+
+frame = tk.Frame(root)
